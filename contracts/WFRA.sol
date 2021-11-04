@@ -4,7 +4,7 @@ pragma solidity ^0.6.12;
 contract WFRA {
     string public name     = "Wrapped FRA";
     string public symbol   = "WFRA";
-    uint8  public decimals = 6;
+    uint8  public decimals = 18;
 
     event  Approval(address indexed src, address indexed guy, uint wad);
     event  Transfer(address indexed src, address indexed dst, uint wad);

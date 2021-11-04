@@ -17,10 +17,12 @@ async function main() {
     //string memory name, uint8 decimals, uint256 initSupply
     const initSupply =  BigNumber.from(1000);
     const mockTokens = [
-        {symbol: 'USDT', decimals: 18},
-        {symbol: 'BUSD', decimals: 6},
-        {symbol: 'BTCB', decimals: 18},
-        {symbol: 'BETH', decimals: 6}
+        // {symbol: 'USDT', decimals: 18},
+        // {symbol: 'BUSD', decimals: 6},
+        // {symbol: 'BTCB', decimals: 18},
+        // {symbol: 'BETH', decimals: 6},
+        {symbol: 'USDC', decimals: 18},
+        {symbol: 'DAI', decimals: 18},
     ];
 
     for (var token of mockTokens) {
