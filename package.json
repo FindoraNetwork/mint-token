@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@truffle/hdwallet-provider": "^1.2.2",
     "ethers": "^5.0.19",
     "hardhat": "^2.0.3",
     "ts-node": "^9.0.0",
