@@ -1,7 +1,7 @@
 const TOKENS = {
     'WFRA': {
-        'dev': '0x4827029c12C4A6b096243d6f1CD7AF31A53256ee',
-        'test': '0x1e08037D222Dc7bdE2EAD18E9b0D37584C6a0ae2'
+        'dev': '0x2FCDC48fF9b7d207636Fab916C527226d29fC682',
+        'test': '0x27f9AcDBf683903646e1Ea36187f845493278Ab3'
     },
     'USDT': {
         'dev': '0x287859aBcDb70A9cA96b39A985F8c26e1369f27e',
