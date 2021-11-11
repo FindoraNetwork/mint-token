@@ -15,14 +15,18 @@ async function main() {
     const MockToken = await ethers.getContractFactory('MockToken');
     
     //string memory name, uint8 decimals, uint256 initSupply
-    const initSupply =  BigNumber.from(1000);
+    const initSupply =  BigNumber.from(10000);
     const mockTokens = [
         // {symbol: 'USDT', decimals: 18},
         // {symbol: 'BUSD', decimals: 6},
         // {symbol: 'BTCB', decimals: 18},
         // {symbol: 'BETH', decimals: 6},
-        {symbol: 'USDC', decimals: 18},
-        {symbol: 'DAI', decimals: 18},
+        // {symbol: 'USDC', decimals: 18},
+        // {symbol: 'DAI', decimals: 18},
+        {symbol: 'CAKE', decimals: 18},
+        {symbol: 'DOT', decimals: 18},
+        {symbol: 'LTC', decimals: 18},
+        {symbol: 'DOGE', decimals: 18}
     ];
 
     for (var token of mockTokens) {

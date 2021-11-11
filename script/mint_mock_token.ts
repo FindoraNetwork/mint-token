@@ -19,16 +19,13 @@ async function main() {
     const mintTo = '0x71819C78cc5c33A37460eE681ef39f98bfb4e5BA';
     // The amount of coins to be minted, please change as needed
     // 需要铸币的量，请按需更改
-    const initSupply =  BigNumber.from(1000);
+    const initSupply =  BigNumber.from(10000);
     // The symbol that needs to be minted refers to the token existing in the config
     // 需要铸币的 symbol 请参考 config 里存在的
     // To get WFRA, please send FRA to WFRA address in your wallet
     // 要获取WFRA 请在钱包中发送FRA到WFRA地址
     const mockTokens = [
-        'USDT',
-        'BUSD',
-        'BTCB',
-        'BETH'
+        'DAI'
       ]
     
     for (var token of mockTokens) {
